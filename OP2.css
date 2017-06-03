@@ -1,0 +1,410 @@
+.home{
+  width: 70px;
+}
+
+.menu{
+  width: 100px;
+}
+
+.gitaar{
+  width: 700px;
+  margin-top: -100px;
+  z-index: 0;
+}
+
+.logo{
+  width: 500px;
+  margin-top: 40px;
+  margin-left: 580px;
+  z-index: 1;
+}
+
+.newartist{
+  width: 300px;
+  float: right;
+  margin-right: 180px;
+  margin-top: 80px;
+}
+
+.naam1{
+  width: 150px;
+  float: right;
+  margin-right: -220px;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.naam2{
+  width: 250px;
+  float: right;
+  margin-right: 220px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.naam3{
+  width: 250px;
+  float: left;
+  margin-top: -545px;
+  margin-bottom: 80px;
+  margin-left: 220px;
+}
+
+.naam4{
+  width: 150px;
+  float: right;
+  margin-right: 350px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.naam5{
+  width: 250px;
+  float: right;
+  margin-right: -350px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.naam6{
+  width: 250px;
+  margin-left: 160px;
+  margin-top: -250px;
+}
+
+
+
+Body{
+  background-image:url(http://i67.tinypic.com/16lbnna.jpg);
+  background-size: cover;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  justify-content: space-around;
+  margin-top: -800px;
+  margin-left: 400px;
+  margin-right: 50px;
+}
+
+nav li {
+  background-color: black;
+  border: 2px solid darkgrey;
+  padding: 5px;
+  padding-top: 15px;
+  flex:auto;
+  text-align: center;
+  z-index: 1;
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+}
+
+a:hover {
+  color: darkgrey;
+}
+
+h1, .laatste{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  float: right;
+  margin-right: 280px;
+  color: seashell;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  margin-top: 200px;
+  float: right;
+  text-decoration: underline;
+  color: seashell;
+}
+
+.goldie{
+  margin-right: -120px;
+}
+
+.goldie2{
+  z-index: 2;
+  margin-top: 30px;
+  margin-right: 360px;
+}
+
+.flecks{
+  margin-top: 400px;
+  float: right;
+  margin-right: 250px;
+}
+
+.flecks2{
+    z-index: 2;
+    margin-top: -100px;
+    margin-right: 320px;
+}
+
+.indigo{
+  margin-top: -758px;
+  float: left;
+  margin-left: 280px;
+}
+
+.indigo2{
+  z-index: 2;
+  margin-top: -20px;
+  margin-right: 270px;
+}
+
+.goldieimg{
+  width: 450px;
+  margin-left: 700px;
+}
+
+.goldieimg2{
+  z-index: 2;
+  width: 450px;
+  margin-right: 200px;
+  margin-top: -750px;
+  float: right;
+}
+
+.flecksimg{
+  width: 450px;
+  margin-left: 700px;
+}
+
+.flecksimg2{
+  z-index: 2;
+  width: 450px;
+  margin-right: -450px;
+  margin-top: 200px;
+  float: right;
+}
+
+.indigoimg{
+  width: 450px;
+  margin-left: 110px;
+  margin-top: -450px;
+}
+
+.indigoimg2{
+  width: 450px;
+  float: right;
+  margin-right: 750px;
+  margin-top: -1120px;
+}
+
+form{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.tittel{
+  font-weight: 400;
+  margin-left: 20px;
+  color: seashell;
+}
+
+.pure-g, .terms{
+  margin-top: 20px;
+  margin-left: 20px;
+  color: seashell;
+}
+
+.logo2{
+  float: right;
+  width: 550px;
+  margin-right: 300px;
+}
+
+.logo3{
+  width: 550px;
+  margin-left: 370px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.contact{
+  float: right;
+  margin-right: -650px;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-weight: 400;
+  color: seashell;
+}
+
+.news{
+  text-decoration: underline;
+  font-weight: 400;
+  margin-left: 0px;
+  color: seashell;
+}
+
+.news2{
+  font-family: 'Oswald', sans-serif;
+  text-decoration: underline;
+  font-size: 17px;
+  font-weight:400;
+  margin-left: 0px;
+  color: seashell;
+}
+
+.info{
+  margin-top: 60px;
+  float: right;
+  margin-right: -800px;
+  color: seashell;
+}
+
+.info2{
+  margin-top: 80px;
+  float: right;
+  margin-right: -850px;
+  text-align: center;
+  color: seashell;
+}
+
+p{
+  text-align: center;
+  font-weight: 200;
+  font-size: 20px;
+  color: seashell;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.tekst, .tekst2, .tekst3{
+  text-align: left;
+  font-weight: 200;
+  font-size: 16px;
+  color: seashell;
+  font-family: 'Oswald', sans-serif;
+  float: right;
+}
+
+.tekst{
+  margin-top: -250px;
+  margin-right: 60px;
+}
+
+.tekst2 {
+  margin-right: 0px;
+  margin-top: 50px;
+}
+
+.tekst3{
+  float: left;
+  margin-top: -600px;
+  margin-left: 60px;
+}
+
+.map{
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.micro{
+  margin-left: -380px;
+  margin-top: -640px;
+  z-index: 0;
+}
+
+.album{
+  width: 500px;
+  margin-left: 80px;
+  margin-bottom: 80px;
+}
+
+.logo4{
+  width: 550px;
+  margin-left: 370px;
+  margin-top: -150px;
+  margin-bottom: -100px;
+}
+
+.top{
+  font-family: 'Oswald', sans-serif;
+  margin-right: 560px;
+  margin-bottom: 100px;
+  font-weight: 200;
+  color: seashell;
+}
+
+.top1{
+  font-family: 'Oswald', sans-serif;
+  margin-right: 460px;
+  margin-bottom: 100px;
+  font-weight: 200;
+  color: seashell;
+}
+
+.affiche{
+  width: 400px;
+  margin-left: 80px;
+}
+
+.time{
+  text-align: center;
+  font-weight: 200;
+  font-size: 20px;
+  color: seashell;
+  font-family: 'Oswald', sans-serif;
+  float: right;
+  margin-right: 200px;
+  margin-top: -450px;
+}
+
+.laatste{
+  margin-bottom: 80px;
+}
+
+.onder{
+  margin-top: -20px;
+  margin-bottom: 100px;
+}
+
+.midden{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  margin-right: 315px;
+  margin-bottom: -20px;
+  font-weight: 200;
+  color: seashell;
+}
+
+.night{
+  width: 350px;
+  margin-left: 480px;
+  margin-bottom: 80px;
+}
+
+.timetable{
+  width: 250px;
+  float: right;
+  margin-right: 220px;
+}
+
+.travel{
+  width: 250px;
+  margin-left: 500px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.new{
+  width: 350px;
+  float: right;
+  margin-right: 450px;
+  margin-bottom: 80px;
+}
